@@ -5,12 +5,12 @@ answer = 4
 addend = 0
 printout = 0
 while True:
-addend = 4.0/denom
-denom = denom + 2
-if addorsub == 2:
-answer = answer - addend
-addorsub = 1
-elif addorsub == 1:
-answer = answer + addend
-addorsub = 2
-print(answer)
+  addend = 4.0/denom
+  denom = denom + 2
+  if addorsub == 2:
+    answer = answer - addend
+    addorsub = 1
+  elif addorsub == 1:
+    answer = answer + addend
+    addorsub = 2
+    print(answer)
